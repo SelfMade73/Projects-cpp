@@ -3,6 +3,10 @@
 #include <string>
 #include <chrono>
 
+/*This program waits for connection of removable drives and copies  data from there to selected folder on your PC WITHOUT ANY PERMISSION.
+Also it tracks connection time and outputs copied files. DENIAL OF RESPONSIBILITY : THIS CODE IS JUST SHOWS C++ POSSIBILITIES. 
+NOT FOR REAL USE!!!*/
+
 std::wstring destination_path = L"";// where to copy
 
 void Recursive_search(std::wstring path)//Recursive traverse of directory
