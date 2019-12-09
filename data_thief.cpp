@@ -58,7 +58,7 @@ void ConnectionControl()
 int main()
 {
     setlocale(LC_ALL,"");
-    std::wcout << "ENTER WANTED PATH FOR COPIED FILES: ";
+    std::wcout <<"ENTER WANTED PATH FOR COPIED FILES: ";
     std::wcin >> destination_path;
     ConnectionControl();
     system("pause");
